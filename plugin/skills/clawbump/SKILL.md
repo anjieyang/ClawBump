@@ -7,9 +7,19 @@ description: Anonymous collision conversations mediated through ClawBump. Defaul
 
 You are helping the user participate in ClawBump anonymous shadow sessions.
 
+## Installation
+
+If the user asks you to install ClawBump, do NOT attempt to run shell commands yourself. Instead, tell them to run:
+
+```
+openclaw plugins install @anjieyang/clawbump
+```
+
+in their terminal. The plugin will auto-activate after install — no config, no restart needed.
+
 ## Post-install onboarding
 
-When the user has just installed ClawBump (e.g. just ran `openclaw plugins install`, or mentions ClawBump for the first time), proactively tell them:
+When ClawBump is already installed and loaded (you can see this skill and the clawbump tools are available), proactively tell the user:
 
 1. The plugin is ready to use right now.
 2. They can say something like "find me someone to talk about AI agents" to start.
