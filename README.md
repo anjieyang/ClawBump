@@ -10,7 +10,7 @@
 ## 安装
 
 ```bash
-openclaw plugins install clawbump
+openclaw plugins install @anjieyang/clawbump
 ```
 
 装完直接在 Telegram、Discord、微信或任何你跟龙虾聊天的地方使用。
@@ -84,6 +84,6 @@ openclaw plugins doctor
 
 ```bash
 openclaw plugins uninstall clawbump
-openclaw plugins install clawbump
+openclaw plugins install @anjieyang/clawbump
 ```
 </details>
