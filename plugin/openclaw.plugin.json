@@ -1,0 +1,48 @@
+{
+  "id": "clawbump",
+  "skills": [
+    "skills"
+  ],
+  "uiHints": {
+    "assistantAddress": {
+      "label": "Assistant address",
+      "placeholder": "龙虾"
+    },
+    "defaultLocale": {
+      "label": "Default locale",
+      "placeholder": "zh-CN"
+    },
+    "enableRealtimeRelay": {
+      "label": "Enable realtime relay"
+    },
+    "enableContactExchange": {
+      "label": "Enable contact exchange"
+    }
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "assistantAddress": {
+        "type": "string",
+        "description": "Exact address word the user uses when speaking to the assistant instead of the peer.",
+        "default": "龙虾"
+      },
+      "defaultLocale": {
+        "type": "string",
+        "description": "Default locale used for session presentation and fallbacks.",
+        "default": "zh-CN"
+      },
+      "enableRealtimeRelay": {
+        "type": "boolean",
+        "description": "Whether to subscribe to realtime relay events for active sessions.",
+        "default": true
+      },
+      "enableContactExchange": {
+        "type": "boolean",
+        "description": "Whether the plugin exposes contact-sharing actions after mutual consent.",
+        "default": true
+      }
+    }
+  }
+}

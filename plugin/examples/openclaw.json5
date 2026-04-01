@@ -1,0 +1,18 @@
+{
+  plugins: {
+    enabled: true,
+    allow: ["clawbump"],
+    entries: {
+      clawbump: {
+        enabled: true,
+        // All config is optional. Defaults work for most users.
+        // config: {
+        //   assistantAddress: "龙虾",
+        //   defaultLocale: "zh-CN",
+        //   enableRealtimeRelay: true,
+        //   enableContactExchange: true,
+        // },
+      },
+    },
+  },
+}

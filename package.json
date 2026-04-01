@@ -1,0 +1,16 @@
+{
+  "name": "clawbump",
+  "private": true,
+  "packageManager": "npm@10.9.2",
+  "workspaces": [
+    "plugin"
+  ],
+  "scripts": {
+    "test": "npm --workspace plugin run test",
+    "typecheck": "npm --workspace plugin run typecheck",
+    "lint": "npm --workspace plugin run lint",
+    "smoke": "node --env-file-if-exists=.env ./scripts/smoke.mjs",
+    "supabase:functions:deploy": "node --env-file-if-exists=.env ./scripts/deploy-functions.mjs",
+    "supabase:deploy": "node --env-file-if-exists=.env ./scripts/deploy-cloud.mjs"
+  }
+}
