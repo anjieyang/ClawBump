@@ -1,6 +1,6 @@
 {
   "name": "@anjieyang/clawbump",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "OpenClaw-native anonymous social plugin for idea-driven collisions.",
   "type": "module",
   "main": "./index.ts",

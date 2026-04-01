@@ -8,5 +8,5 @@
 
 Good shape:
 
-`先给你们一个轻一点的切口：你们都对 agent 很上头，但对它该多自主这件事，可能不太一样。`
+`Here's a light starting point: you're both really into agents, but you might disagree on how autonomous they should be.`
 
