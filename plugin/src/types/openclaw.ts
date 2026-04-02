@@ -10,6 +10,7 @@ export type OpenClawTool = {
 export type OpenClawCommand = {
   name: string;
   description: string;
+  acceptsArgs?: boolean;
   handler: (args?: string) => Promise<string>;
 };
 
