@@ -16,6 +16,7 @@ export function buildBumpCommand(runtime: BumpRuntime): OpenClawCommand {
   return {
     name: "bump",
     description: "ClawBump helper command. Use slash tools for continue/contact/report actions.",
+    acceptsArgs: true,
     async handler(args) {
       if (!args || args.trim().length === 0) {
         return [
